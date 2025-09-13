@@ -1,0 +1,15 @@
+[package]
+name = "Blockchain-based-To-Do-List"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x5bac08620f4ca3708b7817c7f7f4d27b04b35a12ee7e2772ce2a6636953d9c5a"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
